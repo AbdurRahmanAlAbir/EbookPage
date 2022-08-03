@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-----Material CDN-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!----Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet" />
+    <!------Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <!----------Bootstrap-------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+ 
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!------------Dashbord left Side Start-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2">
+                <aside>
+                    <div class="top d-flex flex-colum logo">
+                            <img src="./images/logo.png" alt="">
+                            <h2 class="h3 mx-4 fw-bold">GDTKP</h2>
+                    </div>
+                    <div class="sidebar">
+                        <a href="dashboard.html" class="active"><span class="material-symbols-outlined"> dashboard</span> <h3>Dashboard</h3></a>
+                        <a href="dashboard.html"><span class="material-symbols-outlined">verified_user</span> <h3>Security (M1)</h3></a>
+                        <a href="dashboard.html"><span class="material-symbols-outlined">manage_accounts</span> <h3>Master (M3)</h3></a>
+                        <a href="projectCreation.html"><span class="material-symbols-outlined">open_in_new</span> <h3>Project Creation</h3></a>
+                        <a href="projectVerification.html"><span class="material-symbols-outlined"> domain_verification</span> <h3>Project Verification</h3></a>
+                        <a href="projectEvaluation.html"><span class="material-symbols-outlined">verified</span> <h3>Project Evaluation</h3></a>
+                        <a href="dashboard.html"><span class="material-symbols-outlined"> output</span> <h3>Others</h3></a>
+                        <a href="dashboard.html"><span class="material-symbols-outlined">chrome_reader_mode</span> <h3>Project Reports</h3></a>
+                    </div>
+        
+                </aside>
+            </div>
+            <div class="col-10">
+                <div class="top-bar d-flex flex-row justify-content-between align-items-center px-4">
+                    <div><span class="material-symbols-outlined">sort</span></div>
+                        <div class="search d-flex justify-content-around align-items-center"> 
+                           <input type="text" class="search-input" placeholder="Search..." name=""> 
+                           <a href="#" class="search-icon"> <i class="fa fa-search"></i> </a> 
+                       </div>
+                       
+                          <div class="d-flex flex-row justify-content-between align-items-center ">
+                            <div class="mx-4">
+                                <button type="button" class="btn btn-success">BAN</button>
+                                <button type="button" class="btn btn-outline-success">ENG</button>
+                               </div>
+                             <div class="login login-bar ">
+                             <a href="#"><i class="fa fa-sign-in text-success mx-2"></i>Login</a>
+                             </div>
+                         </div> 
+                </div> 
+    
+                <div class="card card1 mt-2">
+                    <div class="d-flex flex-row justify-content-around align-items-center flex-wrap mt-4 ">
+                        <div class="d-flex flex-row justify-content-center align-items-center ">
+                            <div class="border border-success d-flex align-items-center justify-content-center mx-2">
+                                <div class="card card-hover d-flex align-items-center justify-content-center mx-2" style="width: 155px; height: 140px;">
+                                    <img src="images/location.svg" class="card-img-top mt-4" alt="..." />
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center counter fw-bold" data-count="67">01</h5>
+                                        <h6 class="card-text1 text-center">District</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="border border-success d-flex align-items-center justify-content-center mx-2">
+                                <div class="card card-hover d-flex align-items-center justify-content-center mx-2" style="width: 155px; height: 140px;">
+                                    <img src="images/location.svg" class="card-img-top mt-4" alt="..." />
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center counter fw-bold" data-count="347">01</h5>
+                                        <h6 class="card-text1 text-center">Upazila</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="border border-success d-flex align-items-center justify-content-center mx-2">
+                                <div class="card card-hover d-flex align-items-center justify-content-center mx-2" style="width: 155px; height: 140px;">
+                                    <img src="images/location.svg" class="card-img-top mt-4" alt="..." />
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center counter fw-bold" data-count="567">01</h5>
+                                        <h6 class="card-text1 text-center">Union</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="border border-success d-flex align-items-center justify-content-center mx-2">
+                                <div class="card card-hover d-flex align-items-center justify-content-center mx-2" style="width: 155px; height: 140px;">
+                                    <img src="images/waiting project.svg" class="card-img-top mt-4" alt="..." />
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center counter fw-bold" data-count="80">01</h5>
+                                        <h6 class="card-text1 text-center">
+                                            Waiting to Submission
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="border border-success d-flex align-items-center justify-content-center mx-2">
+                                <div class="card card-hover d-flex align-items-center justify-content-center mx-2" style="width: 155px; height: 130px;">
+                                    <img src="images/project submitted.svg" class="card-img-top mt-4" alt="..." />
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center counter fw-bold" data-count="160">01</h5>
+                                        <h6 class="card-text1 text-center">Project Submitted</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="border border-success d-flex align-items-center justify-content-center mx-2">
+                                <div class="card card-hover d-flex align-items-center justify-content-center mx-2" style="width: 155px; height: 130px;">
+                                    <img src="images/project rejection.svg" class="card-img-top mt-4" alt="..." />
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center counter fw-bold" data-count="20">01</h5>
+                                        <h6 class="card-text1 text-center">Project Rejection</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="border border-success d-flex align-items-center justify-content-center mx-2">
+                                <div class="card card-hover d-flex align-items-center justify-content-center mx-2" style="width: 155px; height: 130px;">
+                                    <img src="images/location.svg" class="card-img-top mt-4" alt="..." />
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center counter fw-bold" data-count="20">02</h5>
+                                        <h6 class="card-text1 text-center">Pending</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="border border-success d-flex align-items-center justify-content-center mx-2">
+                                <div class="card card-hover d-flex align-items-center justify-content-center mx-2" style="width: 155px; height: 130px;">
+                                    <img src="images/location.svg" class="card-img-top mt-4" alt="..." />
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center counter fw-bold" data-count="20">02</h5>
+                                        <h6 class="card-text1 text-center">Approved</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card1 mt-4 p-2">
+                        <form method="POST" action="#search.html" class="form-card mt-2" onsubmit="event.preventDefault()">
+                            <div class="row justify-content-between text-left p-2">
+                                <div class="form-group col-sm-3 flex-column d-flex "> <select class="form-select my-2 form-text" onblur="validate(2)">
+                                    <option >Financial Year (অর্থ বছর) </option> 
+                                </select> 
+                              </div>
+                                <div class="form-group col-sm-3 flex-column d-flex"> <select class="form-select my-2 form-text" onblur="validate(2)">
+                                    <option>Division (বিভাগ) </option> 
+                                </select> </div>
+                                <div class="form-group col-sm-3 flex-column d-flex"><select class="form-select my-2 form-text" onblur="validate(2)">
+                                    <option>District (জেলা)</option> 
+                                </select> </div>
+                                <div class="form-group col-sm-3 flex-column d-flex"> <select class="form-select my-2 form-text" onblur="validate(2)">
+                                    <option>Upazila (উপজেলা) </option> 
+                                </select> </div>
+                            </div>
+                            <div class="row justify-content-between text-left p-2">
+                                <div class="form-group col-sm-3 flex-column d-flex">  <select class="form-select my-2 form-text" onblur="validate(2)">
+                                    <option>All Project Type </option> 
+                                </select> </div>
+                                <div class="form-group col-sm-3 flex-column d-flex">  <select class="form-select my-2 form-text" onblur="validate(2)">
+                                    <option>Union (ইউনিয়ন) </option> 
+                                </select> </div>
+                                <div class="form-group col-sm-3 flex-column d-flex"> <select class="form-select my-2 form-text" onblur="validate(2)">
+                                    <option>All Source of Fund</option> 
+                                </select> </div>
+                                <div class="form-group col-sm-3  p-1">  
+                                    <input type="button" class="search-btn form-control btn-success fw-bold" onclick="location.href='search.html';" value="All Search" />
+                                </div>
+                            </div>
+                        </form> 
+                    </div>
+                    <div class="d-flex flex-row justify-content-around align-items-center">
+                 
+                     <div class="col-5">
+                        <div class="card p-3 mt-4">
+                        <div class="card card1 mt-2  d-flex flex-row justify-content-around align-items-center">
+                            <div class="progress-circle-container p-3">
+                                <canvas id="myChart" style="width:100%;max-width:800px"></canvas> 
+                            </div>
+                            <div class="progress-test d-flex flex-column justify-content-around align-items-start">
+                               <div class="d-flex flex-row justify-content-between align-items-center" >
+                                   <h6 class="rectrangle1 mx-2"></h6>
+                                   <h6 class="form-text">TR (টি আর) - 43% (7,168,228)</h6>
+                                </div>
+                            
+                                 <div class="d-flex flex-row justify-content-between align-items-center">
+                                   <h1 class="rectrangle2 mx-2"></h1>
+                                   <h6 class="form-text">KABITA (কাবিটা) - 47% (6,471,410)</h6>
+                                </div>
+                             </div>
+                           
+                            </div>
+
+                            <div class="card card1 mt-4">
+                                <canvas id="myChart2" style="width:100%;max-width:600px"></canvas> 
+                            </div>
+                        </div>
+                    </div>
+               
+                  
+                        <div class="col-5">
+                            <div class="card p-3 mt-4">
+                            <div class="card card1 mx-2 d-flex flex-row justify-content-around align-items-center">
+                                <div class="progress-circle-container p-3">
+                                    <canvas id="myChart1" style="width:100%;max-width:600px"></canvas>  
+                                </div>
+                                <div class="progress-test d-flex flex-column justify-content-around align-items-start">
+                                     <div class="d-flex flex-row justify-content-between align-items-center">
+                                       <h1 class="rectrangle2 mx-2"></h1>
+                                       <h6 class="form-text ">KABITA (কাবিটা) -100% (128)</h6>
+                                    </div>
+                                 </div>
+                            </div>
+
+
+                            <div class="card card1 mt-4">
+                                <canvas id="lineChart" width="200px" height="100px"></canvas>
+                            </div>
+                    </div>
+                </div>
+            </div>
+                        </div>
+                     </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-center footer">@copyright. Design & Develop by <span class="text-warning">GHITL</span></h5>
+                    </div>
+                </div>
+            </div>
+       
+    
+   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
